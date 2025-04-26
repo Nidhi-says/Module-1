@@ -1,26 +1,30 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+# Experiment No: 1c-Varibles and Expressions, Operators - Exponent of given Number 
 
 ## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
+To write a python program for finding the exponent of the given number using "**="  operator.
 
 ## ALGORITHM
 1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
+2. Read base and exponent input values from the user.
+4. Perform the exponentiation of the two numbers using the `**=` operator.
+5. Print the results.
 6. Terminate the program.
 
 ## PROGRAM
 ```python
-# Reg.No-
-#Name-
-#Write your code here
+# Read the base and exponent values from the user
+base = int(input())  # The base number
+exponent = int(input())  # The exponent value
 
+# Use the '**=' operator to calculate the exponentiation
+base **= exponent  # base = base ** exponent
+
+# Print the result
+print(base)
 ```
 
 ## OUTPUT
-
+![Screenshot 2025-04-26 144438](https://github.com/user-attachments/assets/8d482f27-d2ab-402f-aa36-acf745e575d2)
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus a python program for finding the exponent of the given number using "**="  operator implemented and executed successfully.

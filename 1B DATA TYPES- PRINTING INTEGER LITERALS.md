@@ -5,7 +5,7 @@ To write a python program to read one string and integer and print the values.
 
 ## ALGORITHM  
 1. Begin the program.  
-2. Read string and integer input from the user.
+2. Read string and integer input values from the user.
 3. Use the `print()` function to display the values.
 4. Terminate the program.
 
